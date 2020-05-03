@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Sclock</title>
+    <meta charset="utf-8"/>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="content">
+      <div>
+        <div id="date">
+          Sunday<br>
+          May 3, 2020
+        </div>
+
+        <div id="time">
+          13:36
+        </div>
+
+        <div>
+          Indoor: 20 &deg;C
+        </div>
+      </div>
+
+      <div>
+        <form method="GET" id="locationForm">
+          <label for="location" class="material-icons">
+            &#xe568;
+          </label>
+
+          <select id="location" name="location">
+            <option value="DanielLand">DanielLand</option>
+            <option value="NehajaLand">NehajaLand</option>
+            <option value="LanielLand">LanielLand</option>
+            <option value="GanielLand">GanielLand</option>
+          </select>
+        </form>
+
+        <div id="temp">
+          <div id="col1" class="column">
+            <div id="currentTemp">
+              17 &deg;C
+             </div>
+             <div id="Realfeel">
+             Realfeel: 16 &deg;C
+             </div>
+          </div>
+
+          <div id="col2" class="column">
+            <div id="high">
+              &uarr; 20 &deg;C
+             </div>
+             <div id="low">
+              &darr; 12 &deg;C
+            </div>
+          </div>
+
+          <div id="col3" class="column">
+            <img src="cloud.png"> <br>
+            Cloudy
+          </div>
+        </div>
+
+      </div>
+      
+
+    </div>
+
+  <script src="script.js"></script> 
+  </body>
+
+</html>
